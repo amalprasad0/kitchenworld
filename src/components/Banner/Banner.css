@@ -1,0 +1,35 @@
+section{
+    padding:50px 10%;
+}
+.home{
+    width:100% ;
+    min-height: 100vh;
+    background-image: url('./Banner.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.home-text h1{
+    font-size: 2.7rem;
+    color: aliceblue;
+}
+.home-text p{
+    font-size: 0.98rem;
+    margin: 0.4rem 0 1.8rem;
+    color: aliceblue;
+    font-weight: 500;
+}
+.home-text span{
+  color:chartreuse;   
+}
+.btn{
+   padding:10px 14px ; 
+   background:chartreuse;
+   color: aliceblue;
+   border-radius: 0.3rem;
+   font-size: 14px;
+   font-weight: 600;
+}
